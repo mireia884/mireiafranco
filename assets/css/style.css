@@ -95,6 +95,34 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 60px;
 }
 
+h1, h2{
+  animation: moureEsquerra 0.8s ease-in;
+}
+
+.btn-get-started{
+  animation: zoomIn 1s ease-in;
+}
+
+/* animaciones Header */
+@keyframes moureEsquerra {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translate(0);
+  }
+}  
+
+@keyframes zoomIn {
+  0% {
+      transform: scale(0.5);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -103,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  animation: zoomIn 1s ease-in;
 }
 .navbar ul {
   margin: 0;
@@ -322,11 +351,13 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    color: rgb(127, 180, 197);
   }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    color: rgb(35, 38, 82);
   }
 
   /* mostra només fletxes en móbil */

@@ -24,6 +24,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+  <!-- animate scroll library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -52,9 +55,9 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-    <h1>Hola, I'm Mireia!</h1>
-    <h2>Soy una diseñadora web</h2>
-    <a href="about.html" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
+    <h1>Mireia Franco</h1>
+    <h2>diseñadora web</h2>
+    <a href="#services" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
   </section><!-- End Hero -->
 
   <!-- ======= Header ======= -->
@@ -503,7 +506,7 @@
 
     
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact section-bg" data-aos="fade-right">
       <div class="container">
 
         <div class="section-title">
@@ -627,6 +630,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!--Animate css scroll-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
